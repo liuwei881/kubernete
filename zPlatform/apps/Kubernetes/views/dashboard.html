@@ -1,0 +1,60 @@
+<div class="portlet box blue">
+    <div class="portlet-title">
+        <div class="caption">
+            <i class="fa fa-cogs"></i>物理主机列表
+        </div>
+        <div class="tools">
+            <a href="#portlet-config" data-toggle="modal" class="glyphicon glyphicon-plus" data-original-title=""
+               title="">
+            </a>
+            <button type="button" class="btn red-haze btn-sm dropdown-toggle" data-toggle="dropdown"
+                    data-close-others="true" onclick="sendReq('/test',{'id':1})">新建
+            </button>
+        </div>
+    </div>
+    <div class="portlet-body">
+        <div>
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>主机名称</th>
+                    <th>eth0</th>
+                    <th>eth1</th>
+                    <th>主机位置</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Compute01</td>
+                    <td>10.10.102.1</td>
+                    <td>10.10.103.1</td>
+                    <td>8</td>
+                    <td>
+                        <div class="btn-group">
+                            <button type="button" class="btn red-haze btn-sm dropdown-toggle" data-toggle="dropdown"
+                                    data-close-others="true">
+                                <span class="hidden-sm hidden-xs">Actions&nbsp;</span>
+                                <i class="fa fa-angle-down"></i>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="javascript:;">
+                                        <i class="icon-docs"></i> 关机 </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <i class="icon-tag"></i> 重启 </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

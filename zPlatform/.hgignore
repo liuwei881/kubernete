@@ -1,0 +1,8 @@
+syntax: glob
+apps/dist/*
+apps/*/node_modules/*
+apps/*/asserts/*
+!apps/*/asserts/metronic/*
+apps/*/.tmp/*
+apps/*/.sass-cache/*
+*.pyc

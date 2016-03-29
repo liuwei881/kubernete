@@ -1,0 +1,2 @@
+engines:
+  {'base':"mysql://root:123456@localhost/projects?charset=utf8"}
